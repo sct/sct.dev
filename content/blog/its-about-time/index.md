@@ -8,7 +8,9 @@ Wow what's this? Some sort of _internet blog_ or something? Well I guess that's 
 
 ## Who are you and how did I get here?
 
-Well I can only answer one of those questions. I'm Ryan. I'm an engineer. I've been programming since I was about 11 years old. I was always fascinated with the web and wanted to build things for myself so 11 year old me would sit in the local Barnes and Noble and read every programming book I could get my hand on. Started with Perl and as of this day I am knee deep in Javascript. Mainly focusing on the frontend side of things.
+Well I can only answer one of those questions. I'm Ryan. I'm an engineer. I've been programming since I was about 11 years old. I was always fascinated with the web and wanted to build things for myself. So 11 year old me would sit in the local Barnes and Noble and read every programming book I could get my hands on. Started with Perl and as of this day I am knee deep in Javascript. Mainly focusing on the frontend side of things.
+
+I'm 30 years old (at the time of this article) and happily married with a 3 month old child. Living in Tokyo, Japan and enjoying life like never before!
 
 ## I have a lot of hobbies
 
@@ -22,9 +24,9 @@ To name a few other hobbies: I ski like crazy every winter. I scuba dive every c
 
 ## Why should I listen to you about anything?
 
-Well maybe you shouldn't! I don't know! I've been coding a long time. I have a lot of experience all over the place. Since 2012 I have been maintaining and working on [Technic](https://www.technicpack.net). A minecraft modding/modpack community. We have had our share of mistakes but I have learned so much in my time with Technic.
+Well maybe you shouldn't! I don't know! I've been coding a long time. I have a lot of experience all over the place. Since 2012 I have been maintaining and working on [Technic](https://www.technicpack.net). A minecraft modding/modpack community. We have had our share of mistakes but I have learned so much in my time with Technic. We are still pushing millions of unique visitors a month. How cool is that?
 
-Currently, I am a senior engineer at [U-NEXT](https://video.unext.jp) in Japan. We are a video streaming service. I'm working on the frontend team building and maintaining the React frontend that's currently live today.
+Currently, I am a senior engineer at [U-NEXT](https://video.unext.jp) in Japan. We are a video streaming service. I'm working on the frontend team building and maintaining the React site that is currently live today.
 
 ## Other things
 
