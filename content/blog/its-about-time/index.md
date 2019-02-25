@@ -10,7 +10,7 @@ Wow what's this? Some sort of _internet blog_ or something? Well I guess that's 
 
 Well I can only answer one of those questions. I'm Ryan. I'm an engineer. I've been programming since I was about 11 years old. I was always fascinated with the web and wanted to build things for myself. So 11 year old me would sit in the local Barnes and Noble and read every programming book I could get my hands on. Started with Perl and as of this day I am knee deep in Javascript. Mainly focusing on the frontend side of things.
 
-I'm 30 years old (at the time of this article) and happily married with a 3 month old child. Living in Tokyo, Japan and enjoying life like never before!
+I'm 30 years old (at the time of this article) and happily married with a 3 month old child. Living in Tokyo, Japan and enjoying life like never before! Check out this cool picture of me on a mountain doing some ski stuff!
 
 ![Me!](./me.jpg)
 
