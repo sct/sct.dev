@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { ThemeProvider } from 'styled-components';
 
+import { theme, GlobalStyle } from '../styles';
 import { rhythm, scale } from '../utils/typography';
 
 class Layout extends React.Component {
@@ -52,42 +54,47 @@ class Layout extends React.Component {
       );
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          <a
-            href="https://twitter.com/sctx"
-            target="_blank"
-            rel="noopener noreferrer"
+      <ThemeProvider theme={theme}>
+        <>
+          <GlobalStyle />
+          <div
+            style={{
+              marginLeft: `auto`,
+              marginRight: `auto`,
+              maxWidth: rhythm(24),
+              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            }}
           >
-            twitter
-          </a>{' '}
-          •{' '}
-          <a
-            href="https://github.com/sct"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github
-            </a>{' '}
-          •{' '}
-          <a
-            href="https://instagram.com/sctlovescoffee"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            instagram
-          </a>
-        </footer>
-      </div>
+            <header>{header}</header>
+            <main>{children}</main>
+            <footer>
+              <a
+                href="https://twitter.com/sctx"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                twitter
+              </a>{' '}
+              •{' '}
+              <a
+                href="https://github.com/sct"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github
+              </a>{' '}
+              •{' '}
+              <a
+                href="https://instagram.com/sctlovescoffee"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                instagram
+              </a>
+            </footer>
+          </div>
+        </>
+      </ThemeProvider>
     );
   }
 }

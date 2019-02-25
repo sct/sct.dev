@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "sct <ryan@sct.dev>",
   "dependencies": {
+    "disqus-react": "^1.0.5",
     "gatsby": "^2.1.17",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-feed": "^2.0.13",
@@ -27,6 +28,7 @@
     "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
+    "styled-components": "^4.1.3",
     "typeface-merriweather": "0.0.54",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.18",
