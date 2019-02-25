@@ -12,6 +12,8 @@ Well I can only answer one of those questions. I'm Ryan. I'm an engineer. I've b
 
 I'm 30 years old (at the time of this article) and happily married with a 3 month old child. Living in Tokyo, Japan and enjoying life like never before!
 
+![Me!](./me.jpg)
+
 ## I have a lot of hobbies
 
 Maybe too many hobbies. I don't have enough time for all of them. Actually coding itself always was one of my first hobbies. I have always done this for fun and hey what do you know now I'm making money doing it!
