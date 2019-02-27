@@ -9,11 +9,11 @@ import { rhythm, scale } from '../utils/typography';
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
-    const { siteTitle, repository } = this.props.data.site.siteMetadata;
+    const { title, repository } = this.props.data.site.siteMetadata;
     const { previous, next } = this.props.pageContext;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={title}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
