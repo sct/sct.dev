@@ -6,7 +6,6 @@
   "author": "sct <ryan@sct.dev>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "disqus-react": "^1.0.5",
     "gatsby": "^2.1.17",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-feed": "^2.0.13",

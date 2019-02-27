@@ -1,7 +1,6 @@
 ---
 title: It's about time
 date: "2019-02-26"
-description: "I finally have a domain I am very happy with. Let's see what I can do with it,"
 ---
 
 Wow what's this? Some sort of _internet blog_ or something? Well I guess that's exactly what this is. I'm doing it! I'm going to post things if I can ever find the time.
@@ -22,11 +21,11 @@ I _love_ photography. Especially taking photos of [coffee](https://instagram.com
 
 ![Shibuya, Tokyo](./shibuya.jpg)
 
-To name a few other hobbies: I ski like crazy every winter. I scuba dive every chance I can. I ride motorcyles. I also play guitar!
+To name a few other hobbies: I ski like crazy every winter. I scuba dive every chance I can. I ride motorcycles. I also play guitar!
 
 ## Why should I listen to you about anything?
 
-Well maybe you shouldn't! I don't know! I've been coding a long time. I have a lot of experience all over the place. Since 2012 I have been maintaining and working on [Technic](https://www.technicpack.net). A minecraft modding/modpack community. We have had our share of mistakes but I have learned so much in my time with Technic. We are still pushing millions of unique visitors a month. How cool is that?
+Well maybe you shouldn't! I don't know! I've been coding a long time. I have a lot of experience all over the place. Since 2012 I have been maintaining and working on [Technic](https://www.technicpack.net). A Minecraft modding/modpack community. We have had our share of mistakes but I have learned so much in my time with Technic. We are still pushing millions of unique visitors a month. How cool is that?
 
 Currently, I am a senior engineer at [U-NEXT](https://video.unext.jp) in Japan. We are a video streaming service. I'm working on the frontend team building and maintaining the React site that is currently live today.
 

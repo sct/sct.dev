@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import { DiscussionEmbed } from "disqus-react";
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
@@ -10,13 +9,8 @@ import { rhythm, scale } from '../utils/typography';
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
-    const siteTitle = this.props.data.site.siteMetadata.title;
+    const { siteTitle, repository } = this.props.data.site.siteMetadata;
     const { previous, next } = this.props.pageContext;
-    const disqusShortname = "sctdev";
-    const disqusConfig = {
-      identifier: post.id,
-      title: post.frontmatter.title,
-    };
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -36,6 +30,17 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div style={{ marginBottom: rhythm(1) }}>
+          <a
+            href={`${repository}/edit/master/content/blog${
+              post.fields.slug
+            }index.md`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Edit on Github
+          </a>
+        </div>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -67,7 +72,6 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </Layout>
     );
   }
@@ -81,16 +85,19 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        repository
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
       }
     }
   }

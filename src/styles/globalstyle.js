@@ -66,8 +66,7 @@ const GlobalStyle = createGlobalStyle`
   /* Inline code */
   :not(pre) > code[class*='language-'] {
     border-radius: 0.3em;
-    background: var(--inlineCode-bg);
-    color: var(--inlineCode-text);
+    background: #282a36;
     padding: 0.15em 0.2em 0.05em;
     white-space: normal;
   }
