@@ -23,7 +23,7 @@ const CvPage: NextPage = () => {
         <div className="mt-16">
           <h2 className="text-3xl font-extrabold">Skills</h2>
           <div className="mt-6 info-block">
-            <h3>Languages and Libaraies/Frameworks</h3>
+            <h3>Languages and Libraries/Frameworks</h3>
             <p>
               TypeScript, JavaScript, React, GraphQL (Server and client),
               Node.js, Apollo, PHP, Laravel
