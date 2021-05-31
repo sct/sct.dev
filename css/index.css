@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white bg-gray-900;
+}
+
+a {
+  @apply text-yellow-500 transition duration-300 hover:underline hover:text-yellow-400;
+}
+
+.fancy-link {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 to-yellow-300 hover:from-yellow-600 hover:to-yellow-200;
+}
+
+.info-block h3 {
+  @apply text-xl font-bold text-gray-100;
+}
+
+.info-block p {
+  @apply my-4 text-gray-300;
+}
+
+.yellow-badge {
+  @apply inline-flex px-2 text-xs font-semibold leading-5 text-red-100 bg-yellow-600 rounded-full cursor-default;
+}
