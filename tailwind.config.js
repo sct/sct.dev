@@ -43,7 +43,7 @@ module.exports = {
             },
 
             strong: {
-              color: theme('colors.gray.400'),
+              color: theme('colors.gray.100'),
             },
 
             code: {

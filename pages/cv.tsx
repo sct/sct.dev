@@ -85,7 +85,7 @@ const CvPage: NextPage = () => {
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">Stratz</span>
-                <span className="yellow-badge">Full-stack Engineer</span>
+                <span className="yellow-badge">Frontend Engineer</span>
               </span>
             </div>
             <div className="ml-4 prose">
@@ -165,6 +165,39 @@ const CvPage: NextPage = () => {
               </ul>
             </div>
           </div>
+          <div className="mt-6 info-block">
+            <div className="flex flex-col space-y-1">
+              <span className="text-sm text-gray-200">
+                March 2010 to December 2010
+              </span>
+              <span className="flex items-center text-2xl font-semibold text-gray-100">
+                <span className="mr-2">Real Local Pages</span>
+                <span className="yellow-badge">Web Developer</span>
+              </span>
+            </div>
+          </div>
+          <div className="mt-6 info-block">
+            <div className="flex flex-col space-y-1">
+              <span className="text-sm text-gray-200">
+                June 2009 to March 2010
+              </span>
+              <span className="flex items-center text-2xl font-semibold text-gray-100">
+                <span className="mr-2">Intech Center</span>
+                <span className="yellow-badge">Web Developer</span>
+              </span>
+            </div>
+          </div>
+          <div className="mt-6 info-block">
+            <div className="flex flex-col space-y-1">
+              <span className="text-sm text-gray-200">
+                January 2008 to December 2008
+              </span>
+              <span className="flex items-center text-2xl font-semibold text-gray-100">
+                <span className="mr-2">Archon Media</span>
+                <span className="yellow-badge">Web Developer</span>
+              </span>
+            </div>
+          </div>
         </div>
         <div className="mt-12">
           <h2 className="text-3xl font-extrabold">Open-source Work</h2>
@@ -228,6 +261,19 @@ const CvPage: NextPage = () => {
                   WebHack#25 x U-NEXT: GraphQL & Regression Test
                 </a>{' '}
                 (2019)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-12">
+          <h2 className="text-3xl font-extrabold">Language</h2>
+          <div className="mt-6 prose">
+            <ul className="ml-4">
+              <li>
+                <strong>English</strong> - Native Speaker
+              </li>
+              <li>
+                <strong>Japanese</strong> - Conversational
               </li>
             </ul>
           </div>
