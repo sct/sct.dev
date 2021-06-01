@@ -91,13 +91,11 @@ const CvPage: NextPage = () => {
             <div className="ml-4 prose">
               <ul>
                 <li>
-                  Developed and deployed single page React application working
-                  with a C# API backend
+                  Solo developed and deployed a single-page React application
+                  working with a C# API backend
                 </li>
-                <li>
-                  Used Heroku for deploying the frontend single page application
-                </li>
-                <li>Fully test driven deployments</li>
+                <li>Used Heroku for deploying the frontend SPA</li>
+                <li>Fully test-driven deployments</li>
                 <li>
                   Managed team contributions and handled code reviews (Using
                   GitHub PRs)
@@ -123,10 +121,10 @@ const CvPage: NextPage = () => {
             <div className="ml-4 prose">
               <ul>
                 <li>
-                  Developed and deployed fully custom game management system
+                  Developed and deployed a fully custom game management system
                 </li>
                 <li>
-                  Designed and developed a client side game launcher in Java
+                  Designed and developed a client-side game launcher in Java
                 </li>
                 <li>
                   Solely responsible for all website management, server
@@ -156,9 +154,9 @@ const CvPage: NextPage = () => {
                   Headed the team on some major projects, managing and assigning
                   tasks
                 </li>
-                <li>Created a multitude of Wordpress and Joomla plugins</li>
+                <li>Created a multitude of WordPress and Joomla plugins</li>
                 <li>
-                  Fully customized Wordpress on one site, including getting it
+                  Fully customized WordPress on one site, including getting it
                   to work with a remote Oracle Database for user authentication
                 </li>
                 <li>Dealt with cross-site database synchronization</li>
