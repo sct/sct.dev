@@ -1,7 +1,7 @@
-import '../css/index.css';
+import Layout from '@components/Layout';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import Layout from '@components/Layout';
+import '../css/index.css';
 
 const CoreApp = ({ Component, pageProps }: AppProps) => {
   return (
@@ -20,6 +20,7 @@ const CoreApp = ({ Component, pageProps }: AppProps) => {
           data-rh="true"
         ></meta>
         <meta property="og:url" content="https://sct.dev" data-rh="true"></meta>
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
 
       <Component {...pageProps} />
