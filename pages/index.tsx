@@ -32,8 +32,8 @@ const IndexPage: NextPage = () => {
           <div className="mt-20">
             <p className="text-3xl font-extrabold">
               At the moment, I am building <em>very</em> cool stuff at{' '}
-              <a href="https://unext.co.jp" target="_blank" rel="noreferrer">
-                U-NEXT
+              <a href="https://mercari.com" target="_blank" rel="noreferrer">
+                Mercari
               </a>
               .
             </p>

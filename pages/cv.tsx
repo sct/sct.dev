@@ -40,7 +40,7 @@ const CvPage: NextPage = () => {
           <div className="mt-6 info-block">
             <div className="flex flex-col space-y-1">
               <span className="text-sm text-gray-200">
-                July 2018 to Present
+                July 2018 to August 2021
               </span>
               <span className="flex items-center text-2xl font-semibold text-gray-100">
                 <span className="mr-2">U-NEXT</span>
