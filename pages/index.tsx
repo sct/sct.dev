@@ -1,5 +1,4 @@
 import { NextPage } from 'next';
-import React from 'react';
 
 const IndexPage: NextPage = () => {
   return (
@@ -32,8 +31,8 @@ const IndexPage: NextPage = () => {
           <div className="mt-20">
             <p className="text-3xl font-extrabold">
               At the moment, I am building <em>very</em> cool stuff at{' '}
-              <a href="https://mercari.com" target="_blank" rel="noreferrer">
-                Mercari
+              <a href="https://indeed.com" target="_blank" rel="noreferrer">
+                Indeed
               </a>
               .
             </p>
