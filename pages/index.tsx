@@ -52,6 +52,10 @@ const IndexPage: NextPage = () => {
                 rel="noreferrer"
               >
                 LinkedIn
+              </a>{' '}
+              or{' '}
+              <a rel="me" href="https://mstdn.seerr.dev/@sct">
+                Mastodon
               </a>
               .
             </p>
