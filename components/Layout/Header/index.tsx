@@ -1,7 +1,9 @@
+'use client';
+
+import { Transition } from '@headlessui/react';
 import useClickOutside from 'hooks/useClickOutside';
 import Link from 'next/link';
 import { useRef, useState } from 'react';
-import Transition from '../../Transition';
 
 export default function Header() {
   const ref = useRef<HTMLDivElement>(null);
@@ -18,10 +20,8 @@ export default function Header() {
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <Link href="/">
-                  <a className="w-auto text-2xl font-bold fancy-link">
-                    sct.dev
-                  </a>
+                <Link href="/" className="w-auto text-2xl font-bold fancy-link">
+                  sct.dev
                 </Link>
                 <div className="flex items-center -mr-2 md:hidden">
                   <button
@@ -76,8 +76,8 @@ export default function Header() {
               ref={ref}
             >
               <div className="flex items-center justify-between px-5 pt-4">
-                <Link href="/">
-                  <a className="w-auto h-8">sct.dev</a>
+                <Link href="/" className="w-auto h-8">
+                  sct.dev
                 </Link>
                 <div className="-mr-2">
                   <button

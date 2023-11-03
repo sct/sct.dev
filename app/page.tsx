@@ -1,6 +1,4 @@
-import { NextPage } from 'next';
-
-const IndexPage: NextPage = () => {
+export default function Page() {
   return (
     <>
       <div className="flex flex-col mx-auto max-w-7xl">
@@ -52,10 +50,6 @@ const IndexPage: NextPage = () => {
                 rel="noreferrer"
               >
                 LinkedIn
-              </a>{' '}
-              or{' '}
-              <a rel="me" href="https://famichiki.jp/@sct">
-                Mastodon
               </a>
               .
             </p>
@@ -64,6 +58,4 @@ const IndexPage: NextPage = () => {
       </div>
     </>
   );
-};
-
-export default IndexPage;
+}
