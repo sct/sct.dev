@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { RefObject, useEffect } from 'react';
 
 /**
  * useClickOutside
@@ -9,8 +9,8 @@ import { useEffect } from 'react';
  * @param ref Any HTML Element ref
  * @param callback Callback triggered when clicking outside of ref element
  */
-const useClickOutside = (
-  ref: React.RefObject<HTMLElement>,
+const useClickOutside = <T extends HTMLElement = HTMLElement>(
+  ref: RefObject<T | null>,
   callback: (e: MouseEvent) => void
 ): void => {
   useEffect(() => {

@@ -14,8 +14,8 @@ export default function Page() {
               <a href="https://github.com/sct" target="_blank" rel="noreferrer">
                 software engineer
               </a>{' '}
-              that lives and works in Tokyo, Japan 🇯🇵 I'm addicted to coffee ☕️
-              and I love{' '}
+              that lives and works in Calgary, Canada 🇨🇦 I'm addicted to coffee
+              ☕️ and I love{' '}
               <a
                 href="https://instagram.com/sctlovescoffee"
                 target="_blank"
@@ -29,8 +29,12 @@ export default function Page() {
           <div className="mt-20">
             <p className="text-3xl font-extrabold">
               At the moment, I am building <em>very</em> cool stuff at{' '}
-              <a href="https://indeed.com" target="_blank" rel="noreferrer">
-                Indeed
+              <a
+                href="https://neofinancial.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Neo Financial
               </a>
               .
             </p>
